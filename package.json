@@ -1,6 +1,6 @@
 {
   "name": "traceurified-module-runtime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Write Node.js packages in ES6 (runtime).",
   "main": "index.js",
   "scripts": {
@@ -30,16 +30,15 @@
     "strict": true,
     "eqeqeq": true,
     "latedef": true,
-    "newcap":false,
-
+    "newcap": false,
     "globals": {
-      "describe"   : false,
-      "it"         : false,
-      "before"     : false,
-      "beforeEach" : false,
-      "after"      : false,
-      "afterEach"  : false,
-      "Symbol"     : false
+      "describe": false,
+      "it": false,
+      "before": false,
+      "beforeEach": false,
+      "after": false,
+      "afterEach": false,
+      "Symbol": false
     }
   }
 }
